@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Kundan sai sourya</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT LAUNDRY PRO - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VIT LAUNDRY PRO</h1>
+        <form id="login-form">
+            <input type="text" id="registration-number" placeholder="Registration Number">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT LAUNDRY PRO - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to VIT LAUNDRY PRO</h1>
+        <div class="options">
+            <a href="customer_details.html">Customer Details</a>
+            <a href="add_clothes.html">Add Clothes</a>
+            <a href="pending_requests.html">Pending Requests</a>
+            <a href="upcoming_deliveries.html">Upcoming Deliveries</a>
+        </div>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT LAUNDRY PRO - Add Clothes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Clothes</h1>
+        <form id="clothes-form">
+            <div class="clothes-item">
+                <label for="shirt">Shirt:</label>
+                <input type="number" id="shirt" name="shirt" value="0">
+            </div>
+            <div class="clothes-item">
+                <label for="pant">Pant:</label>
+                <input type="number" id="pant" name="pant" value="0">
+            </div>
+            <div class="clothes-item">
+                <label for="nightwear">Nightwear:</label>
+                <input type="number" id="nightwear" name="nightwear" value="0">
+            </div>
+            <div class="clothes-item">
+                <label for="shorts">Shorts:</label>
+                <input type="number" id="shorts" name="shorts" value="0">
+            </div>
+            <div class="clothes-item">
+                <label for="saree">Saree:</label>
+                <input type="number" id="saree" name="saree" value="0">
+            </div>
+            <div class="clothes-item">
+                <label for="heavy-clothes">Heavy Clothes:</label>
+                <input type="number" id="heavy-clothes" name="heavy-clothes" value="0">
+            </div>
+            <button type="submit">Generate Bill</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receipt - VIT LAUNDRY PRO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Receipt</h1>
+        <div class="receipt-details">
+            <!-- Receipt details will be displayed here -->
+        </div>
+        <button onclick="redirectToPayment()">Proceed to Payment</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - VIT LAUNDRY PRO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Payment</h1>
+        <form id="payment-form">
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required>
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+            <button type="submit">Pay Now</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
